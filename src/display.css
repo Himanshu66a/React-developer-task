@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    min-height:25vh;
+    width:18vw;
+    border: 5px solid white;
+    border-radius: 12px;
+}
+body{
+    color: white;
+    background-image: linear-gradient(to left bottom, #051937, #0e296a, #3b349c, #7733c8, #bd12eb);
+}
