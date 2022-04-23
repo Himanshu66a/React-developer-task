@@ -14,7 +14,7 @@ const [page, setpage] = useState(pageini)
 
 const client_id='MjQ1OTk2ODB8MTYzNzczNDkzNy45MDAwMjE';
 
-let db = new Local('db');
+//let db = new Local('db');
 
 
 const handleScroll = (e) => {
@@ -28,16 +28,16 @@ const handleScroll = (e) => {
   }
 };
 
-const saveDataTolb= (data)=>{
+// const saveDataTolb= (data)=>{
 
-  data.map( (ele)=>{
-    Local.setItem('user', {
-    id:ele.id,
-    type:ele.type,
-    title:ele.title
-  })})
+//   data.map( (ele)=>{
+//     Local.setItem('user', {
+//     id:ele.id,
+//     type:ele.type,
+//     title:ele.title
+//   })})
 
-  }
+//   }
 
   useEffect(() => {
     const getUsers = async () => {
